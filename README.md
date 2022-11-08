@@ -41,19 +41,16 @@
     scheme_methods.py: A library with necessary scheme method
     interpreter.py: Interpretes the scheme script
     test.scm: A basic scheme file to check if out interpreter runs properly
-    Makefile: A simple makefile to run the script and also clean from cashed files
     tester.py: Functional testing
 
 # REQUIREMENTS
-    To run the program you Make is not required but is recommended.
-    To install Make: sudo apt install make
+    Python3: sudo apt-get install python3
 
 
 # USAGE
     Pass the runnable scheme script's path an 'input_file' in interpret function in
     interpreter.py
     Type 'python3 interpreter.py' in terminal to run the interpreter
-    Type 'make clean' in terminal to clean the current directory from python cahsed files and .swp files
 
 
 # NOTES
