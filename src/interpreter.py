@@ -96,7 +96,7 @@ def interpret(input_file):
 
 
 def main():
-    input_file = './test.scm'
+    input_file = '../test.scm'
     interpret(input_file)
 
 
