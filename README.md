@@ -10,6 +10,7 @@ open parenthesis, it creates a list with its element in the parent list. By the 
 it checks if there is a redundant or a missing parenthesis keeping that number in
 'parens = 0' variable. It also ignores all comments on the input_file.
 
+
 #### Interpreting:
 (scheme_methods.py)
 There are dictionaries for scheme methods, defined identifiers and defined functions
@@ -18,6 +19,7 @@ in 'scheme_methods.py' file. There featured scheme methods are mentioned in the
 All user defined functions will be stored in another dictionary called 'functions'.
 This dict will have the function name as a key, and will have a list of passed
 arguments and defined function body as a its value.
+
 
 #### Evaluating:
 (interpreter.py)
@@ -29,6 +31,7 @@ of the current list. When seeing a declared variable matching with a key in
 of 'identifiers' dictionary, the program replaces it with its value.
 At the end, the program returns the root expression with already interpreted values.
 
+
 #### Testing:
 (functional_testing/)
 All written functions are tested in functional_testing/tester.py file. You can run
@@ -37,11 +40,17 @@ the test files calling 'python3 testers.py'
 
 ## FILES
 README.md: Script description
+
 parsing.py: Parses the scheme file with parentheses
+
 scheme_methods.py: A library with necessary scheme method
+
 interpreter.py: Interpretes the scheme script
+
 test.scm: A basic scheme file to check if out interpreter runs properly
+
 tester.py: Functional testing
+
 
 ## REQUIREMENTS
 Python3: sudo apt-get install python3
